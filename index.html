@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Unitaro</title>
+<meta name="description" content="Privacy Policy for Unitaro, an offline unit converter app for Android.">
+<style>
+  :root{
+    --bg:#f4f2ff; --card:#ffffff; --text:#1b1740; --muted:#6b6890; --line:#e3e0f7;
+    --brand:#6c5ce7; --brand-dark:#3a1c8f; --brand-light:#8e7cf5; --accent:#ffc145;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#100f1c; --card:#1c1a2e; --text:#f1efff; --muted:#a09dc4; --line:#2e2b48; --brand:#a99cff; }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.7; font-size:16px;
+  }
+  header{
+    background:linear-gradient(135deg,var(--brand-dark),var(--brand-light));
+    color:#fff; padding:56px 20px 72px; text-align:center;
+    border-radius:0 0 36px 36px;
+  }
+  .logo{
+    width:72px; height:72px; margin:0 auto 16px; border-radius:22px;
+    background:rgba(255,255,255,.16); display:flex; align-items:center; justify-content:center;
+    font-size:38px; font-weight:800; position:relative;
+  }
+  .logo::after{
+    content:""; position:absolute; width:12px; height:12px; border-radius:50%;
+    background:var(--accent); top:34px; left:30px;
+  }
+  header h1{margin:0; font-size:2rem; letter-spacing:.2px}
+  header p{margin:6px 0 0; opacity:.9}
+  .chip{
+    display:inline-block; margin-top:16px; padding:6px 16px; border-radius:999px;
+    background:rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.35);
+    font-size:.8rem; font-weight:700;
+  }
+  main{max-width:820px; margin:-40px auto 40px; padding:0 16px}
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:24px;
+    padding:28px 28px; margin-bottom:18px; box-shadow:0 6px 24px rgba(58,28,143,.08);
+  }
+  h2{margin:0 0 10px; font-size:1.25rem; color:var(--brand)}
+  p{margin:0 0 12px}
+  ul{margin:0 0 12px; padding-left:22px}
+  li{margin-bottom:6px}
+  .meta{color:var(--muted); font-size:.9rem}
+  .summary{
+    border-left:6px solid var(--accent);
+    background:linear-gradient(90deg,rgba(255,193,69,.14),transparent);
+  }
+  .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; margin-top:12px}
+  .pill{
+    padding:10px 14px; border-radius:16px; background:var(--bg); border:1px solid var(--line);
+    font-size:.92rem;
+  }
+  .pill b{color:var(--brand)}
+  table{width:100%; border-collapse:collapse; margin-top:8px; font-size:.95rem}
+  th,td{text-align:left; padding:10px 12px; border-bottom:1px solid var(--line)}
+  th{color:var(--muted); font-size:.8rem; text-transform:uppercase; letter-spacing:.08em}
+  a{color:var(--brand); font-weight:600}
+  footer{text-align:center; color:var(--muted); font-size:.85rem; padding:0 16px 40px}
+  @media (max-width:520px){ .card{padding:22px 18px} header h1{font-size:1.6rem} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">U</div>
+  <h1>Unitaro Privacy Policy</h1>
+  <p>Offline Unit Converter for Android</p>
+  <span class="chip">Simple. Fast. Offline.</span>
+</header>
+
+<main>
+
+  <section class="card summary">
+    <h2>Summary</h2>
+    <p>Unitaro does not collect, store, transmit or share any personal information. The app works fully offline, needs no account and requests no permissions.</p>
+    <p class="meta">Effective date: October 8, 2026 &nbsp;|&nbsp; App version: 1.0</p>
+  </section>
+
+  <section class="card">
+    <h2>1. About this policy</h2>
+    <p>This Privacy Policy describes how the Android app <strong>Unitaro</strong> (package name <code>com.fahadkhokhar.unitaro</code>), published by Fahad Khokhar ("the developer", "we", "us"), handles information when you use it.</p>
+  </section>
+
+  <section class="card">
+    <h2>2. Information we collect</h2>
+    <p><strong>We do not collect any information.</strong> Specifically, Unitaro does not collect:</p>
+    <ul>
+      <li>Names, email addresses, phone numbers or any account details</li>
+      <li>Location data</li>
+      <li>Contacts, photos, files, camera or microphone data</li>
+      <li>Device identifiers, advertising IDs or usage analytics</li>
+      <li>Crash reports or diagnostics sent to us</li>
+    </ul>
+    <p>The values you type into the converter are processed only on your device, in memory, to show the result. They are not saved or sent anywhere.</p>
+  </section>
+
+  <section class="card">
+    <h2>3. Permissions</h2>
+    <p>Unitaro declares <strong>no permissions</strong> in its manifest.</p>
+    <div class="grid">
+      <div class="pill"><b>No</b> internet access</div>
+      <div class="pill"><b>No</b> location</div>
+      <div class="pill"><b>No</b> storage access</div>
+      <div class="pill"><b>No</b> contacts</div>
+      <div class="pill"><b>No</b> camera</div>
+      <div class="pill"><b>No</b> microphone</div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>4. Clipboard</h2>
+    <p>The "Copy Result" button places the converted number on your device clipboard only when you tap it. Unitaro never reads the clipboard. Newer versions of Android may show a small system message confirming that something was copied.</p>
+  </section>
+
+  <section class="card">
+    <h2>5. Third parties</h2>
+    <p>Unitaro does not include advertising, analytics, tracking or any other third-party SDKs, and does not share data with any third party. Because the app has no network access, no data can leave your device through the app.</p>
+  </section>
+
+  <section class="card">
+    <h2>6. Data storage and security</h2>
+    <p>Unitaro stores no personal data and keeps no user database. Android app backup is disabled, so the app does not place any data in cloud backups. Uninstalling the app removes everything the app has on your device.</p>
+  </section>
+
+  <section class="card">
+    <h2>7. Children's privacy</h2>
+    <p>Unitaro does not knowingly collect personal information from anyone, including children under 13. Since no data is collected at all, the app is safe for all ages to use as a general utility.</p>
+  </section>
+
+  <section class="card">
+    <h2>8. Your rights</h2>
+    <p>Because we hold no personal data about you, there is nothing to access, correct, export or delete. If you have questions about your privacy rights under laws such as GDPR or CCPA, you are welcome to contact us using the details below.</p>
+  </section>
+
+  <section class="card">
+    <h2>9. Changes to this policy</h2>
+    <p>We may update this policy if the app changes, for example if a future version adds a feature that handles data. The latest version will always be available at this page, and the effective date above will be updated. Material changes will also be reflected in the Data safety section of the Google Play listing.</p>
+  </section>
+
+  <section class="card">
+    <h2>10. Contact us</h2>
+    <table>
+      <tr><th>Developer</th><td>Fahad Khokhar</td></tr>
+      <tr><th>App</th><td>Unitaro - Unit Converter</td></tr>
+      <tr><th>Package</th><td>com.fahadkhokhar.unitaro</td></tr>
+      <tr><th>Email</th><td><a href="mailto:fahad.apps804@gmail.com">fahad.apps804@gmail.com</a></td></tr>
+    </table>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Fahad Khokhar. All rights reserved.
+</footer>
+
+</body>
+</html>
